@@ -4,9 +4,8 @@
 Analysis of historical stock prices vs revenue for Tesla (TSLA) and GameStop (GME) using Python.
 
 ## Graphs
-![Tesla Graph](images/tesla_graph.png)
-![GameStop Graph](images/gamestop_graph.png)
-
+![Tesla Graph](tesla_graph.png)
+![GameStop Graph](gamestop_graph.png)
 ## Technologies
 | Tool | Purpose |
 |------|---------|
