@@ -1,23 +1,24 @@
-# 📈 Tesla & GameStop Historical Stock Analysis
+# 📈 Tesla & GameStop Stock Analysis
 
 ## Overview
-This project analyzes historical stock prices and revenue data for Tesla and GameStop.
+Analysis of historical stock prices vs revenue for Tesla (TSLA) and GameStop (GME) using Python.
 
-The analysis includes:
-- Extracting stock data using `yfinance`
-- Web scraping revenue data using `requests` and `pandas`
-- Cleaning financial data
-- Visualizing stock price vs revenue trends using `matplotlib`
+## Graphs
+![Tesla Graph](images/tesla_graph.png)
+![GameStop Graph](images/gamestop_graph.png)
 
-## Technologies Used
-- Python
-- pandas
-- yfinance
-- BeautifulSoup
-- matplotlib
+## Technologies
+| Tool | Purpose |
+|------|---------|
+| yfinance | Stock price data |
+| requests + pandas | Web scraping revenue data |
+| matplotlib | Data visualization |
 
-## Key Insights
-- Tesla showed strong revenue and stock growth between 2018–2021.
-- GameStop experienced a sharp stock price surge in 2021 without a corresponding revenue increase.
+## Key Findings
+- Tesla showed strong revenue and stock growth between 2018–2021
+- GameStop experienced a sharp stock price surge in 2021 without a corresponding revenue increase
 
-## Project Structure
+## How to Run
+1. Clone this repo
+2. Install dependencies: `pip install yfinance pandas requests beautifulsoup4 matplotlib`
+3. Open and run `notebook.ipynb`
